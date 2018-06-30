@@ -6,11 +6,11 @@ class EmailParser
   attr_accessor :email
 
 def initialize(emails)
-  @@all = emails.split(",")
+  @@all = emails.split(",").strip
 end
 
 def parse
-@@all
+@@all.
 end
 
 end
