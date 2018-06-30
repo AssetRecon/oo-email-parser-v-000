@@ -10,7 +10,7 @@ def initialize(emails)
 end
 
 def parse
-@@all.
+@@all
 end
 
 end
