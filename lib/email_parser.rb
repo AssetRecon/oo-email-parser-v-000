@@ -4,10 +4,12 @@
 # or whitespace (' ').
 class EmailParser
 
-def initialize(emails)
-  emails.split(",")
+#def initialize(emails)
+#  emails.split(",")
+#end
+
+def parse(emais)
+emails.split(",")
 end
-
-
 
 end
