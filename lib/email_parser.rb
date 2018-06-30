@@ -7,11 +7,8 @@ class EmailParser
 
 def initialize(emails)
 
-  if emails.include?(",")
-  @@all = emails.gsub(/\s+/, "").split(",")
-  else
-    @@all = emails.split(" ")
-  end
+  @@all = emails.split(/[\s,']/)
+
 end
 
 def parse
