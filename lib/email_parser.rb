@@ -10,7 +10,7 @@ def initialize(emails)
   @@all << emails.split(",")
 end
 
-def parse(emails)
+def parse
 @@all
 end
 
