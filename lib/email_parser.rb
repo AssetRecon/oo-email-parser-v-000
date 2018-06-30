@@ -7,7 +7,7 @@ class EmailParser
 
 def initialize(emails)
 
-  @@all = emails.split /\s|,/.filter(true)
+  @@all = emails.split(/\s|,/).filter(true)
 
 end
 
