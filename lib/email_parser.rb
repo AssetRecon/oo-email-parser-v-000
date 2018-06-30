@@ -7,7 +7,7 @@ class EmailParser
 
 def initialize(emails)
 
-  @@all = emails.split(/[\s,']/)
+  @@all = emails.split /\s|'|,/
 
 end
 
